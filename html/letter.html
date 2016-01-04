@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../css/letter.css" rel="stylesheet" type="text/css" media="all">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/letter.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="survey">
+        <h1>I will write you a letter.</h1>
+        <h2>Please provide you information.</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Your name:</label>
+            <input id="name" type="text">
+          </div>
+          <div class="form-group">
+            <label for="street">Your street address:</label>
+            <input id="street" type="text">
+          </div>
+          <div class="form-group">
+            <label for="city">Your city, state, zip:</label>
+            <input id="city" type="text">
+          </div>
+          <div class="form-group">
+            <label for="number">Your phone number:</label>
+            <input id="number" type="text">
+          </div>
+          <button type="submit" id="submit">Get your letter</button>
+        </form>
+      </div>
+      <div id="letter">
+        <div id="header">
+          <p><strong><span class="name"></span></strong></p>
+          <p><strong><span class="street"></span></strong></p>
+          <p><strong><span class="city"></span></strong></p>
+          <p><strong><span class="number"></span></strong></p>
+        </div>
+        <div id="actual">
+          <h3>Dear <span class="name"></span>,</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum ultrices mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra tellus at tortor laoreet, sit amet placerat lectus facilisis. Cras ornare nulla euismod nunc sollicitudin, non pharetra urna accumsan. Quisque eu eleifend sem, id rhoncus mi. Aenean tempus sagittis nulla, nec sollicitudin augue varius ut. Morbi ut mauris ac nisi rhoncus convallis. Vivamus posuere tellus quam, vitae hendrerit ante elementum sed. Vivamus laoreet dolor sed auctor pharetra. Aliquam rutrum augue ante, quis lobortis quam malesuada et. Nulla et placerat sapien. Duis vel enim ipsum. Praesent facilisis sodales magna et interdum. Donec vitae hendrerit tortor, quis lobortis dui.</p>
+
+          <p>Donec id posuere elit, facilisis iaculis ante. Ut blandit enim sed diam dictum, consectetur ullamcorper sem pulvinar. Phasellus vestibulum leo odio, vitae maximus magna ultricies sit amet. Vivamus nec sapien rhoncus nisi semper tincidunt. Nulla facilisi. Nulla facilisi. Maecenas est odio, tincidunt sagittis felis laoreet, cursus bibendum nulla. Mauris efficitur sed quam ac iaculis. Nulla maximus, nulla volutpat aliquet finibus, mauris est auctor nibh, ac placerat leo odio eget libero. Aliquam vitae ultricies est. Suspendisse varius sapien magna, in congue magna aliquet sit amet. Nullam ut odio sed orci elementum vestibulum. Integer porta, diam id dignissim sagittis, tellus nibh molestie leo, iaculis cursus mauris libero vitae diam. Donec porta eros eu nibh consequat, at convallis velit congue. Curabitur ornare fringilla accumsan. In aliquam rutrum sapien a maximus.</p>
+
+          <p>Aliquam pulvinar at nunc at varius. Mauris scelerisque bibendum cursus. Suspendisse mollis tempus laoreet. Sed tincidunt velit justo, at aliquam nulla laoreet sed. Nulla varius id erat quis porttitor. Cras porta suscipit elit, et elementum est pretium quis. Donec suscipit a justo eu congue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin eget pellentesque libero, sed consectetur ligula. Integer placerat mauris nec metus tristique porta. Cras tellus risus, eleifend vel pellentesque mollis, accumsan ut risus. Vivamus iaculis, lectus a venenatis cursus, nunc justo congue nibh, et dictum mauris lacus nec quam. Nulla sed mi iaculis, venenatis sapien ac, vehicula mi. Ut tempor aliquam sem, eu porta lectus mollis sed. Aenean vitae interdum ligula. Sed diam tellus, aliquam vel lacus at, semper iaculis lorem.</p>
+
+          <h4 class="signature">Love always,</h4>
+          <h2 class="signature">Scott H.</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
