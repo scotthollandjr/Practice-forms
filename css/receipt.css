@@ -1,1 +1,7 @@
-receipt.css
+#receipt {
+  margin: 20%;
+  padding: 25px;
+  display: none;
+  text-align: center;
+  border: 1px black solid;
+}

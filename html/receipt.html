@@ -15,26 +15,33 @@
         <form>
           <div class="form-group">
             <label for="name">Your name:</label>
-            <input id="name" type="text">
+            <input id="name" type="text" placeholder="Joe Customer">
           </div>
           <div class="form-group">
-            <label for="number">Your phone number:</label>
-            <input id="number" type="text">
+            <label for="number">Phone number:</label>
+            <input id="number" type="text" placeholder="(415)867-5309">
           </div>
           <div class="form-group">
-            <label for="street">Your street address:</label>
-            <input id="street" type="text">
+            <label for="street">Street address:</label>
+            <input id="street" type="text" placeholder="555 NE Main Street">
           </div>
           <div class="form-group">
-            <label for="city">Your city, state, and zip:</label>
-            <input id="city" type="text">
+            <label for="city">City, state, and zip:</label>
+            <input id="city" type="text" placeholder="Graceland, OR 97555">
           </div>
           <button type="submit" id="submit">Confirm Address</button>
         </form>
       </div>
     </div>
     <div id="receipt">
-      
+      <h1><strong>Tacocat Industries</strong></h1>
+      <h3>Thank you for your purchase!</h3>
+      <h4>Your order has been shipped to:</h4>
+      <p><span id="nameRec"></span></p>
+      <p><span id="numberRec"></span></p>
+      <p><span id="streetRec"></span></p>
+      <p><span id="cityRec"></span></p>
+      <img src="../img/barcode.png" alt="an image of a standard barcode">
     </div>
   </body>
 </html>
