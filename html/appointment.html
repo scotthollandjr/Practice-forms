@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="../css/appointment.css" rel="stylesheet" type="text/css" media="all">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/appointment.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="booking">
+        <h1><strong><em>Tacocat Resort and Spa</em></strong></h1>
+        <h3>Book your cat massage today!</h3>
+        <h4>Please enter your desired appointment details below:</h4>
+        <form>
+          <div class="form-group">
+            <label for="name">Your name:</label>
+            <input id="name" type="text" placeholder="Joe Customer">
+          </div>
+          <div class="form-group">
+            <label for="date">Appointment Date:</label>
+            <input id="date" type="text" placeholder="01/03/2015">
+          </div>
+          <div class="form-group">
+            <label for="time">Desired time:</label>
+            <input id="time" type="text" placeholder="12:30PM">
+          </div>
+          <div class="form-group">
+            <label for="duration">Massage duration:</label>
+            <input id="duration" type="text" placeholder="45 minutes">
+          </div>
+          <button type="submit" id="submit">Book Appointment</button>
+        </form>
+      </div>
+    </div>
+    <div id="confirmation">
+      <h1><strong><em>Tacocat Resort and Spa</em></strong></h1>
+      <h4>Your appointment details are as follows:</h4>
+      <h4><strong><span id="nameCon"></span></strong></h4>
+      <p>Date: <strong><span id="dateCon"></span></strong></p>
+      <p>Time: <strong><span id="timeCon"></span></strong></p>
+      <p>Duration: <strong><span id="durationCon"></span></strong></p>
+      <p>We hope you enjoy your time with us!</p>
+      <p>Please don't hesitate to contact our friendly staff if you have any questions!</p>
+    </div>
+  </body>
+</html>

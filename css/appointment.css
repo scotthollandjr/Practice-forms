@@ -1,0 +1,7 @@
+#confirmation {
+  display: none;
+  text-align: center;
+  border: 5px black solid;
+  padding: 20px;
+  margin: 20%;
+}
