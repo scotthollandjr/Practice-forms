@@ -14,7 +14,7 @@ $(document).ready(function() {
     $("#receipt").show();
     event.preventDefault();
   });
-  $("button#night").click(function(event) {
+  $("button#night").click(function() {
     $("body").removeClass();
     $("body").addClass("night");
   });
@@ -25,6 +25,8 @@ $(document).ready(function() {
   $("button#appa").click(function() {
     $("body").removeClass();
     $("body").addClass("appa");
-    event.preventDefault();
+  });
+  $("button#original").click(function() {
+    $("body").removeClass();
   });
 });
