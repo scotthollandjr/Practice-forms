@@ -15,4 +15,16 @@ $(document).ready(function() {
 
     event.preventDefault();
   });
+
+  $("p#first").click(function() {
+    $("p#first").toggleClass("highlight");
+  });
+
+  $("p#second").click(function() {
+    $("p#second").toggleClass("highlight")
+  });
+
+  $("p#third").click(function() {
+    $("p#third").toggleClass("highlight")
+  });
 });
