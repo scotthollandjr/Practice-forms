@@ -14,4 +14,17 @@ $(document).ready(function() {
     $("#receipt").show();
     event.preventDefault();
   });
+  $("button#night").click(function(event) {
+    $("body").removeClass();
+    $("body").addClass("night");
+  });
+  $("button#gameboy").click(function() {
+    $("body").removeClass();
+    $("body").addClass("gameboy");
+  });
+  $("button#appa").click(function() {
+    $("body").removeClass();
+    $("body").addClass("appa");
+    event.preventDefault();
+  });
 });

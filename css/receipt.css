@@ -5,3 +5,18 @@
   text-align: center;
   border: 1px black dashed;
 }
+
+.night {
+  background-color: #001848;
+  color: #8668a4;
+}
+
+.gameboy {
+  background-color: #9cbd0f;
+  color: #0f380f;
+}
+
+.appa {
+  background-color: #baae97;
+  color: #514630;
+}
